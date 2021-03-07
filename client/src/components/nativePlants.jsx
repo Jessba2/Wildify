@@ -4,7 +4,7 @@ import React from "react";
 /* Structure of function */
 function NativePlants() {
 	return(
-        <div className="home">
+        <div className="nativeplants">
             <div class="flex-container">
                 <form>
                 <select id="simple" name="simple">
