@@ -5,8 +5,8 @@ import React from "react";
 function NativePlants() {
 	return(
         <div className="home">
-            <div class="flex-container">
-                <form>
+            <div class="flex-container" >
+                <form class="formSpecs" >
                 <select id="simple" name="simple">
                     <option selected>plant/bush/tree</option>
                     <option>plant</option>
@@ -24,11 +24,15 @@ function NativePlants() {
                     <option >non-flowering</option>
                 </select>
                 </form>
-                <img
-                    src="http://placeimg.com/2010/600/nature"
+                <div>
+                    <img
+                    height="700"
+                    width="1800"
+                    src="./images/floweringCurrant1800x700.png"
                     alt="nature"
-                />
-                <h1>Native Plants</h1>
+                    />
+                    <h1>Native Plants</h1>
+                </div>
             </div>
         </div>    
     )
